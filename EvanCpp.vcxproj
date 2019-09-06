@@ -269,6 +269,7 @@
     <ClInclude Include="EvanDangolCpp\jeevan\array.h" />
     <ClInclude Include="EvanDangolCpp\ribesh\h.h" />
     <ClInclude Include="EvanDangolCpp\simant\nestedloop.h" />
+    <ClInclude Include="EvanDangolCpp\simant\simant.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

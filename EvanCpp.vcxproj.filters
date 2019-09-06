@@ -449,5 +449,8 @@
     <ClInclude Include="EvanDangolCpp\simant\nestedloop.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="EvanDangolCpp\simant\simant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
