@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{E5CF0CDA-64C4-4808-B60B-7F8F415ECDEE}</ProjectGuid>
+    <RootNamespace>EvanCpp</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="EvanDangolCpp\alok\cpp\main.cpp" />
+    <ClCompile Include="EvanDangolCpp\alok\cpp\route.cpp" />
+    <ClCompile Include="EvanDangolCpp\evan\dllmain.cpp" />
+    <ClCompile Include="EvanDangolCpp\evan\EvanDangolCpp.cpp" />
+    <ClCompile Include="EvanDangolCpp\evan\FileHandle.cpp" />
+    <ClCompile Include="EvanDangolCpp\evan\FunctionsCpp.cpp" />
+    <ClCompile Include="EvanDangolCpp\evan\realloc.cpp" />
+    <ClCompile Include="EvanDangolCpp\evan\salarycalc.cpp" />
+    <ClCompile Include="EvanDangolCpp\evan\Source.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\access.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\ag.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\array.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\class.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\const.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\cout.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\demo 1.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\demo 2.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\dslkfjdiops.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\fibo.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\file.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\ftoc.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\grs.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\if.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\if1.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\if12.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\inheritance.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\loops.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\new.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\offical project.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\p2.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\p3.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\parith.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\pointer.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\project 1.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\sample 2.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\simant.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\string.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\supernam.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\switch.cpp" />
+    <ClCompile Include="EvanDangolCpp\gautam\Untitled2.cpp" />
+    <ClCompile Include="EvanDangolCpp\jeevan\blank.cpp" />
+    <ClCompile Include="EvanDangolCpp\jeevan\cpse2017.cpp" />
+    <ClCompile Include="EvanDangolCpp\jeevan\dllcall.cpp" />
+    <ClCompile Include="EvanDangolCpp\jeevan\dllcall2.cpp" />
+    <ClCompile Include="EvanDangolCpp\jeevan\encrypt.cpp" />
+    <ClCompile Include="EvanDangolCpp\jeevan\error.cpp" />
+    <ClCompile Include="EvanDangolCpp\jeevan\exception.cpp" />
+    <ClCompile Include="EvanDangolCpp\jeevan\exception2.cpp" />
+    <ClCompile Include="EvanDangolCpp\jeevan\filehandling.cpp" />
+    <ClCompile Include="EvanDangolCpp\jeevan\filehandling1.cpp" />
+    <ClCompile Include="EvanDangolCpp\jeevan\files.cpp" />
+    <ClCompile Include="EvanDangolCpp\jeevan\first.cpp" />
+    <ClCompile Include="EvanDangolCpp\jeevan\linesread.cpp" />
+    <ClCompile Include="EvanDangolCpp\jeevan\pointers.cpp" />
+    <ClCompile Include="EvanDangolCpp\jeevan\queuearray.cpp" />
+    <ClCompile Include="EvanDangolCpp\jeevan\random.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\a.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\array1.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\array2.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\avg.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\break.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\c to f.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\checkeqtriangle.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\checktriangle.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\continue.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\dynamicmemory.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\evenodd.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\evenoddfunc.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\f to c.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\for.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\fuction10.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\fuction11.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\fuction12.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\fuction13.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\fuction9.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\function1.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\function2.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\function3.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\function5.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\function7.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\function8.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\functions.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\grade.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\grd.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\include.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\isosceles.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\itisme.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\numberguessinggame.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\p or n.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\ribesh.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\sixtyfo.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\structure.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\summation.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\Untitled6.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EvanDangolCpp\alok\header\array.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\binarysearch.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\blank.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\bubblesort.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\cbse2014.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\classes.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\college.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\ConstructorInvocation.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\cpse2017.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\diagonalsum.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\divisiblebyhundred.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\dllcall.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\evan.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\evandlcall.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\evanfilehandling.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\evanstring.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\fibonacciseries.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\filehandling.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\functionoverloading.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\general.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\halfarray.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\linkedlist.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\Loop.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\NEBunit4.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\Newheaderfile.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\output.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\pointers.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\putgetchar.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\queuearray.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\random.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\scoperesolution.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\sorting.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\stacklinked.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\student.h" />
+    <ClInclude Include="EvanDangolCpp\alok\header\union.h" />
+    <ClInclude Include="EvanDangolCpp\evan\EvanDangolCpp.h" />
+    <ClInclude Include="EvanDangolCpp\evan\FileHandle.h" />
+    <ClInclude Include="EvanDangolCpp\evan\FunctionsCpp.h" />
+    <ClInclude Include="EvanDangolCpp\evan\stdafx.h" />
+    <ClInclude Include="EvanDangolCpp\evan\student.h" />
+    <ClInclude Include="EvanDangolCpp\evan\targetver.h" />
+    <ClInclude Include="EvanDangolCpp\gautam\filehandling.h" />
+    <ClInclude Include="EvanDangolCpp\gautam\gyam.h" />
+    <ClInclude Include="EvanDangolCpp\gautam\loop.h" />
+    <ClInclude Include="EvanDangolCpp\gautam\modifed game.h" />
+    <ClInclude Include="EvanDangolCpp\gautam\srs.h" />
+    <ClInclude Include="EvanDangolCpp\gautam\srx.h" />
+    <ClInclude Include="EvanDangolCpp\jeevan\array.h" />
+    <ClInclude Include="EvanDangolCpp\ribesh\h.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EvanDangolCpp\alok\cpp\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\alok\cpp\route.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\evan\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\evan\EvanDangolCpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\evan\FileHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\evan\FunctionsCpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\evan\realloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\evan\salarycalc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\evan\Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\access.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\ag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\class.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\const.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\cout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\demo 1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\demo 2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\dslkfjdiops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\fibo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\ftoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\grs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\if.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\if1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\if12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\inheritance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\loops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\new.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\offical project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\p2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\p3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\parith.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\pointer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\project 1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\sample 2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\simant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\string.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\supernam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\switch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\gautam\Untitled2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\jeevan\blank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\jeevan\cpse2017.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\jeevan\dllcall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\jeevan\dllcall2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\jeevan\encrypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\jeevan\error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\jeevan\exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\jeevan\exception2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\jeevan\filehandling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\jeevan\filehandling1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\jeevan\files.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\jeevan\first.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\jeevan\linesread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\jeevan\pointers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\jeevan\queuearray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\jeevan\random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\array1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\array2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\avg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\break.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\c to f.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\checkeqtriangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\checktriangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\continue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\dynamicmemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\evenodd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\evenoddfunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\f to c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\for.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\fuction9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\fuction10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\fuction11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\fuction12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\fuction13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\function1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\function2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\function3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\function5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\function7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\function8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\grade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\grd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\include.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\isosceles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\itisme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\numberguessinggame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\p or n.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\ribesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\sixtyfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\structure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\summation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\Untitled6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EvanDangolCpp\alok\header\array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\binarysearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\blank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\bubblesort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\cbse2014.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\classes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\college.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\ConstructorInvocation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\cpse2017.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\diagonalsum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\divisiblebyhundred.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\dllcall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\evan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\evandlcall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\evanfilehandling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\evanstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\fibonacciseries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\filehandling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\functionoverloading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\general.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\halfarray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\linkedlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\Loop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\NEBunit4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\Newheaderfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\pointers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\putgetchar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\queuearray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\scoperesolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\sorting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\stacklinked.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\student.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\alok\header\union.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\evan\EvanDangolCpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\evan\FileHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\evan\FunctionsCpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\evan\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\evan\student.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\evan\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\gautam\filehandling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\gautam\gyam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\gautam\loop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\gautam\modifed game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\gautam\srs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\gautam\srx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\jeevan\array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\ribesh\h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
