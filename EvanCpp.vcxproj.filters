@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EvanDangolCpp\alok\cpp\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="EvanDangolCpp\alok\cpp\route.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -297,6 +294,9 @@
     <ClCompile Include="EvanDangolCpp\ribesh\Untitled6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="EvanDangolCpp\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EvanDangolCpp\alok\header\array.h">
@@ -444,6 +444,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="EvanDangolCpp\ribesh\h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\simant\nestedloop.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

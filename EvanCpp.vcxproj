@@ -123,7 +123,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="EvanDangolCpp\alok\cpp\main.cpp" />
     <ClCompile Include="EvanDangolCpp\alok\cpp\route.cpp" />
     <ClCompile Include="EvanDangolCpp\evan\dllmain.cpp" />
     <ClCompile Include="EvanDangolCpp\evan\EvanDangolCpp.cpp" />
@@ -179,6 +178,7 @@
     <ClCompile Include="EvanDangolCpp\jeevan\pointers.cpp" />
     <ClCompile Include="EvanDangolCpp\jeevan\queuearray.cpp" />
     <ClCompile Include="EvanDangolCpp\jeevan\random.cpp" />
+    <ClCompile Include="EvanDangolCpp\main.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\a.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\array1.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\array2.cpp" />
@@ -268,6 +268,7 @@
     <ClInclude Include="EvanDangolCpp\gautam\srx.h" />
     <ClInclude Include="EvanDangolCpp\jeevan\array.h" />
     <ClInclude Include="EvanDangolCpp\ribesh\h.h" />
+    <ClInclude Include="EvanDangolCpp\simant\nestedloop.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
