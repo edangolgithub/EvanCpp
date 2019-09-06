@@ -452,5 +452,8 @@
     <ClInclude Include="EvanDangolCpp\simant\simant.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="EvanDangolCpp\simant\functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
