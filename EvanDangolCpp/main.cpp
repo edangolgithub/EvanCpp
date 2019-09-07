@@ -1,10 +1,9 @@
-#include<iostream>
-#include "simant/nestedloop.h"
-#include "simant/functions.h"
-using namespace std;
+#include "evan/realloc.h"
+
+using namespace evan;
 
 int main()
 {
-	add();
+	run();
 
 }

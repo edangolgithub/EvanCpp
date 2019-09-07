@@ -1,5 +1,6 @@
 #include<iostream>
 #include<fstream>
+#include<string>
 using namespace std;
 
 void ew2rt5fas2()

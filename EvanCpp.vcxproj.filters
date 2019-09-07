@@ -30,9 +30,6 @@
     <ClCompile Include="EvanDangolCpp\evan\FunctionsCpp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EvanDangolCpp\evan\realloc.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="EvanDangolCpp\evan\salarycalc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -43,12 +40,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="EvanDangolCpp\gautam\ag.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EvanDangolCpp\gautam\array.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EvanDangolCpp\gautam\class.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="EvanDangolCpp\gautam\const.cpp">
@@ -112,9 +103,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="EvanDangolCpp\gautam\project 1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EvanDangolCpp\gautam\sample 2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="EvanDangolCpp\gautam\simant.cpp">
@@ -453,6 +441,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="EvanDangolCpp\simant\functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\evan\realloc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

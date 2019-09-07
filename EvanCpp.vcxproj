@@ -22,13 +22,13 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{E5CF0CDA-64C4-4808-B60B-7F8F415ECDEE}</ProjectGuid>
     <RootNamespace>EvanCpp</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -41,7 +41,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -128,13 +128,10 @@
     <ClCompile Include="EvanDangolCpp\evan\EvanDangolCpp.cpp" />
     <ClCompile Include="EvanDangolCpp\evan\FileHandle.cpp" />
     <ClCompile Include="EvanDangolCpp\evan\FunctionsCpp.cpp" />
-    <ClCompile Include="EvanDangolCpp\evan\realloc.cpp" />
     <ClCompile Include="EvanDangolCpp\evan\salarycalc.cpp" />
     <ClCompile Include="EvanDangolCpp\evan\Source.cpp" />
     <ClCompile Include="EvanDangolCpp\gautam\access.cpp" />
     <ClCompile Include="EvanDangolCpp\gautam\ag.cpp" />
-    <ClCompile Include="EvanDangolCpp\gautam\array.cpp" />
-    <ClCompile Include="EvanDangolCpp\gautam\class.cpp" />
     <ClCompile Include="EvanDangolCpp\gautam\const.cpp" />
     <ClCompile Include="EvanDangolCpp\gautam\cout.cpp" />
     <ClCompile Include="EvanDangolCpp\gautam\demo 1.cpp" />
@@ -156,7 +153,6 @@
     <ClCompile Include="EvanDangolCpp\gautam\parith.cpp" />
     <ClCompile Include="EvanDangolCpp\gautam\pointer.cpp" />
     <ClCompile Include="EvanDangolCpp\gautam\project 1.cpp" />
-    <ClCompile Include="EvanDangolCpp\gautam\sample 2.cpp" />
     <ClCompile Include="EvanDangolCpp\gautam\simant.cpp" />
     <ClCompile Include="EvanDangolCpp\gautam\string.cpp" />
     <ClCompile Include="EvanDangolCpp\gautam\supernam.cpp" />
@@ -271,6 +267,7 @@
     <ClInclude Include="EvanDangolCpp\simant\functions.h" />
     <ClInclude Include="EvanDangolCpp\simant\nestedloop.h" />
     <ClInclude Include="EvanDangolCpp\simant\simant.h" />
+    <ClInclude Include="EvanDangolCpp\evan\realloc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,7 +1,23 @@
 #pragma once
-class student
+#define _CRT_SECURE_NO_WARNINGS
+#include<iostream>
+#include<conio.h>
+#include<stdio.h>
+#include<fstream>
+using namespace std;
+namespace evan
 {
-public:
-	int id;
-	char name[50];
-};
+	class student
+	{
+	public:
+		char roll[50];
+		char name[50];
+		float sm;
+		float cm;
+		float mm;
+
+
+
+	};
+
+}
