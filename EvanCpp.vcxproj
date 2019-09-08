@@ -255,6 +255,7 @@
     <ClInclude Include="EvanDangolCpp\evan\FunctionsCpp.h" />
     <ClInclude Include="EvanDangolCpp\evan\stdafx.h" />
     <ClInclude Include="EvanDangolCpp\evan\student.h" />
+    <ClInclude Include="EvanDangolCpp\evan\StudentList.h" />
     <ClInclude Include="EvanDangolCpp\evan\targetver.h" />
     <ClInclude Include="EvanDangolCpp\gautam\filehandling.h" />
     <ClInclude Include="EvanDangolCpp\gautam\gyam.h" />
@@ -268,6 +269,9 @@
     <ClInclude Include="EvanDangolCpp\simant\nestedloop.h" />
     <ClInclude Include="EvanDangolCpp\simant\simant.h" />
     <ClInclude Include="EvanDangolCpp\evan\realloc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="EvanDangolCpp\gautam\student.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

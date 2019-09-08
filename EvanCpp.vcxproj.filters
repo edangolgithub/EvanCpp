@@ -446,5 +446,11 @@
     <ClInclude Include="EvanDangolCpp\evan\realloc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="EvanDangolCpp\evan\StudentList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="EvanDangolCpp\gautam\student.txt" />
   </ItemGroup>
 </Project>

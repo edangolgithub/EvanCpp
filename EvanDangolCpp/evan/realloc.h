@@ -63,6 +63,7 @@ namespace evan {
 		} while (ch != 'n');
 		f.close();
 	}
+
 	void readchar()
 	{
 		//char *c = (char *)malloc(sizeof(char));

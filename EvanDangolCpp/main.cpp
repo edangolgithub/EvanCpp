@@ -1,9 +1,9 @@
-#include "evan/realloc.h"
+#include "evan/StudentList.h"
 
 using namespace evan;
 
 int main()
 {
-	run();
-
+	StudentList sl;
+	sl.search();
 }
