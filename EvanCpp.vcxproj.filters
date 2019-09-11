@@ -449,6 +449,9 @@
     <ClInclude Include="EvanDangolCpp\simant\References.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="EvanDangolCpp\evan\EvanWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="EvanDangolCpp\gautam\student.txt" />

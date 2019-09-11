@@ -250,6 +250,7 @@
     <ClInclude Include="EvanDangolCpp\alok\header\student.h" />
     <ClInclude Include="EvanDangolCpp\alok\header\union.h" />
     <ClInclude Include="EvanDangolCpp\evan\EvanDangolCpp.h" />
+    <ClInclude Include="EvanDangolCpp\evan\EvanWindow.h" />
     <ClInclude Include="EvanDangolCpp\evan\FileHandle.h" />
     <ClInclude Include="EvanDangolCpp\evan\FunctionsCpp.h" />
     <ClInclude Include="EvanDangolCpp\evan\stdafx.h" />
