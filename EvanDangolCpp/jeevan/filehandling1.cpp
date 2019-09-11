@@ -76,7 +76,7 @@
   outfile.open ("test.txt");
 
   outfile.write ("This is an apple",16);
-  long pos = outfile.tellp();
+  streamoff pos = outfile.tellp();
   cout<<pos;
   outfile.seekp (pos-7);
    pos = outfile.tellp();

@@ -40,7 +40,7 @@ public:
 			cin >> name;
 
 			
-			for (int i = 0; i < slist.size(); i++)
+			for (size_t i = 0; i < slist.size(); i++)
 			{
 				if (_strcmpi(name, slist[i].name)==0)
 				{
@@ -92,7 +92,7 @@ public:
 		slist.clear();
 		readdata();
 		int count = 1;
-		for (int i = 0; i < slist.size(); i++)
+		for (size_t i = 0; i < slist.size(); i++)
 		{
 			string pf = "";
 			string name = slist[i].name;

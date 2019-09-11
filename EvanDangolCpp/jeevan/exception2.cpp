@@ -12,7 +12,7 @@ void msain () {
   }
   catch (std::bad_function_call& e)
   {
-    std::cout << "ERROR: Bad function call\n";
+    std::cout << "ERROR: Bad function call\n"<<e.what();
   }
 
   return ;

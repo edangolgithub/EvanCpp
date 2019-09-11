@@ -105,7 +105,7 @@ int nmain (int argc, char** argv) {
             v += recbuf;
             if (recbuf == 10) {
 				
-                recs[lcount].salary = atoi(sbuf);
+				recs[lcount].salary = (float) atof(sbuf);
                 lcount++;
                 break;
             }

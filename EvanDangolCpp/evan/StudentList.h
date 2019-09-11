@@ -76,10 +76,70 @@ namespace evan
 	
 	class StudentList
 	{
-	public:
+	private:
 		int numofstudents;
 		int readallready = false;
-		student *s = (student *)malloc(sizeof(student));
+		student* s = (student*)malloc(sizeof(student));
+
+		int CheckExist(char* roll)
+		{
+			int count = 0;
+			while (count < numofstudents)
+			{
+				if (_strcmpi(roll, s[count].roll) == 0)
+				{
+					return 1;
+				}
+				count++;
+			}
+			return 0;
+		}
+		student *GetNewStudent()
+		{
+			student ss;
+			cout << "enter name of student" << endl;
+
+			cin.getline(ss.name, 50); //cin >> s.name;
+
+
+			cout << "enter roll of student" << endl;
+
+			cin.getline(ss.roll, 50);
+			
+				
+			
+			
+
+			cout << "enter name of comp" << endl;
+			cin >> ss.cm;
+
+			cout << "enter name of scins" << endl;
+			cin >> ss.sm;
+
+			cout << "enter name of ma" << endl;
+			cin >> ss.mm;
+			return &ss;
+		}
+		void ReadStudentData()
+		{
+			numofstudents = 0;
+			student ss;
+			fstream f("student.txt", ios::binary | ios::in);
+			int count = 0;
+			while (f.read((char*)& ss, sizeof(student)))
+			{
+				s = (student*)realloc(s, sizeof(student) * (count + 1));
+
+				s[count] = ss;
+				count++;
+			}
+			numofstudents = count;
+			if (numofstudents > 0)
+			{
+				readallready = 1;
+			}
+			f.close();
+		}
 		void ReinitializePointer()
 		{
 			int count = numofstudents;
@@ -89,43 +149,8 @@ namespace evan
 				count--;
 			}
 		}
-		void search()
-		{
-			if (readallready != 1)
-			{
-				ReadStudentData();
-			}
-		
-			
-			cout << "search by roll or name?? n/r" << endl;
-			char ch;
-			cin >> ch;
-			switch (ch)
-			{
-			case 'n':				
-				char name[50];
-				cout << "input name" << endl;
-				cin >> name;
-				SearchStudent(name);
-				break;
-			case 'r':
-				char roll[50];
-				cout << "input roll" << endl;
-				cin >> roll;
-				SearchStudent("",roll);
-				break;
 
-			default:
-				cout << "you are searching by name"<<endl;
-			//	char name[50];
-				cout << "input name" << endl;
-				cin >> name;
-				SearchStudent(name);
-				break;
-			}
-
-		}
-		void SearchStudent(const char *name="",const char *roll="")
+		void SearchStudent(const char* name = "", const char* roll = "")
 		{
 			int count = 0;
 			int valid = 0;
@@ -164,22 +189,7 @@ namespace evan
 				}
 			}
 		}
-		void processresult()
-		{
-			if (readallready != 1)
-			{
-				ReadStudentData();
-			}
-			
-			int count = 1;
-			for (int i = 0; i < numofstudents; i++)
-			{
-				DisplayStudent(s[i], count);
-				count++;
-			}
-			
-		}
-		void DisplayStudent(student st,int count)
+		void DisplayStudent(student st, int count)
 		{
 			char pf[10] = "";
 			char name[50];
@@ -200,7 +210,7 @@ namespace evan
 				strcpy(pf, "Pass");
 			}
 
-			
+
 			cout << endl << "Student " << count << endl;
 			cout << endl << "---------------------------------" << endl;
 			cout << "student name :" << name << endl;
@@ -213,7 +223,15 @@ namespace evan
 			cout << "Result :" << pf << endl;
 			cout << endl << "---------------------------------" << endl;
 			count++;
-		
+
+		}
+		void WriteStudentdata(student ss)
+		{
+			
+			fstream f;
+			f.open("student.txt", ios::app | ios::binary);		
+			f.write((char*)& ss, sizeof(student));
+			f.close();
 		}
 		void displayresult()
 		{
@@ -221,9 +239,9 @@ namespace evan
 			{
 				ReadStudentData();
 			}
-			int count = 0;		
-			
-			while (count<numofstudents)
+			int count = 0;
+
+			while (count < numofstudents)
 			{
 				cout << s->name;
 				s++;
@@ -231,26 +249,206 @@ namespace evan
 			}
 			ReinitializePointer();
 		}
-		void ReadStudentData()
+		void UpdateOrDeleteStudent(char* roll, int update = 0)
 		{
-			numofstudents = 0;			
-			student ss;
-			fstream f("student.txt", ios::binary | ios::in);
-			int count = 0;
-			while (f.read((char*)&ss, sizeof(student)))
-			{
-				s = (student *)realloc(s, sizeof(student)*(count + 1));
 
-				s[count] = ss;
-				count++;
-			}
-			numofstudents = count;
-			if (numofstudents > 0)
+			student ss;
+			fstream f("student.txt", ios::binary | ios::in|ios::out);
+			fstream fout("tmp.txt", ios::binary | ios::out);
+			if (update == 0)
 			{
-				readallready = 1;
+				while (f.read((char*)& ss, sizeof(student)))
+				{
+
+					if (_strcmpi(roll, ss.roll) == 0)
+					{
+
+					}
+					else
+					{
+						fout.write((char*)& ss, sizeof(student));
+					}
+				}
+				
+				
+			}
+			else
+			{
+				while (f.read((char*)& ss, sizeof(student)))
+				{
+
+					if (_strcmpi(roll, ss.roll) == 0)
+					{
+						student ustudent = *GetNewStudent();						
+						fout.write((char*)&ustudent, sizeof(student));
+					
+					}
+					else
+					{
+						fout.write((char*)& ss, sizeof(student));
+					}
+					
+				}
+				
 			}
 			f.close();
+			fout.close();
+			int x = remove("student.txt");
+			int y = rename("tmp.txt", "student.txt");
+			ReadStudentData();			
 		}
+	public:
+		void AddStudent()
+		{
+			ReadStudentData();
+			try {
+				student ss;
+				char ch;
+				do {
+
+					ss = *GetNewStudent();
+					if (CheckExist(ss.roll) == 1)
+					{
+						cout << "roll exists";
+						throw "error";
+					}
+
+					WriteStudentdata(ss);
+
+
+					cout << "thapne?" << endl;
+					cin >> ch;
+					cin.ignore();
+				} while (ch != 'n');
+			}
+			catch (exception ex)
+			{
+				cout << ex.what();
+			}
+			
+		}
+
+		
+		void SearchResult()
+		{
+			if (readallready != 1)
+			{
+				ReadStudentData();
+			}
+		
+			
+			cout << "search by roll or name?? n/r" << endl;
+			char ch;
+			cin >> ch;
+			switch (ch)
+			{
+			case 'n':				
+				char name[50];
+				cout << "input name" << endl;
+				cin >> name;
+				SearchStudent(name);
+				break;
+			case 'r':
+				char roll[50];
+				cout << "input roll" << endl;
+				cin >> roll;
+				SearchStudent("",roll);
+				break;
+
+			default:
+				cout << "you are searching by name"<<endl;
+			//	char name[50];
+				cout << "input name" << endl;
+				cin >> name;
+				SearchStudent(name);
+				break;
+			}
+
+		}
+
+		void RemoveStudent()
+		{
+			cout << "enter roll no to delete" << endl;
+			char roll[50];
+			cin >> roll;
+			student ss;
+			strcpy(ss.roll, roll);
+			UpdateOrDeleteStudent(roll);
+		}
+		void UpdateStudent()
+		{
+			cout << "enter roll no to update" << endl;
+			char roll[50];
+			cin >> roll;
+			student ss;
+			strcpy(ss.roll, roll);
+			cin.ignore();
+			UpdateOrDeleteStudent(roll,1);
+		}
+		void GetResults()
+		{
+			if (readallready != 1)
+			{
+				ReadStudentData();
+			}
+			
+			int count = 1;
+			for (int i = 0; i < numofstudents; i++)
+			{
+				DisplayStudent(s[i], count);
+				count++;
+			}
+			
+		}
+	
+		void menu()
+		{
+			cout << "Student Result System" << endl<<endl;
+			char ch;
+			do {
+				
+				cout << "Enter 1 for adding student\nEnter 2 for result display\nEnter 4 for result search" <<
+						"\nEnter 5 for updating student \nEnter 6 for deleting student" <<
+						"\nEnter 7 for seeding student" <<
+						"\nEnter'q' for quit" << endl;
+				cin >> ch;
+				switch (ch)
+				{
+				case '1':
+					cin.ignore();
+					AddStudent();
+					break;
+				case '2':
+					system("cls");
+					GetResults();
+					break;
+				case '4':
+					SearchResult();
+					break;
+				case '5':
+					
+					UpdateStudent();
+					break;
+				case '6':
+					
+					RemoveStudent();
+					break;
+				case '7':
+					SeedStudents();
+					break;
+				case 'q':
+					exit(0);
+					break;
+				default:
+					cout << "incorrect input";
+					break;
+				}
+				
+				
+			} while (ch != 'q');
+
+		}
+		
 
 		void SeedStudents()
 		{
@@ -258,41 +456,11 @@ namespace evan
 			StudentSeeder sss;
 
         }
-		void WriteStudentdata()
+		void run()
 		{
-			student s;
-			fstream f;
-			f.open("student.txt", ios::app | ios::binary);
-			char ch;
-			do {
-
-				cout << "enter name of student" << endl;
-
-				cin.getline(s.name, 50); //cin >> s.name;
-
-
-				cout << "enter roll of student" << endl;
-
-				cin.getline(s.roll, 50);
-
-				cout << "enter name of comp" << endl;
-				cin >> s.cm;
-
-				cout << "enter name of scins" << endl;
-				cin >> s.sm;
-
-				cout << "enter name of ma" << endl;
-				cin >> s.mm;
-
-
-				f.write((char*)&s, sizeof(s));
-
-				cout << "thapne?" << endl;
-				cin >> ch;
-				cin.ignore();
-			} while (ch != 'n');
-			f.close();
+			menu();
 		}
+		
 	};
 	
 

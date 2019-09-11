@@ -23,6 +23,10 @@ using namespace std;
     {
     	return  'C';
 	}
+	else
+	{
+		return 'f';
+	}
   }
   
   void ew2rt5fa()
