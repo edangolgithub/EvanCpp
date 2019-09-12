@@ -1,4 +1,10 @@
 #pragma once
+#define _CRT_SECURE_NO_WARNINGS
+#include<iostream>
+#include<conio.h>
+#include<stdio.h>
+#include<fstream>
+using namespace std;
 #include "student.h"
 namespace evan 
 {
