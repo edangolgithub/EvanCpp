@@ -5,5 +5,5 @@ using namespace birat;
 
 int main()
 {
-	switchh();
+	point();
 }

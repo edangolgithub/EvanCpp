@@ -32,9 +32,54 @@ namespace birat {
 			cout << "hello for" << endl;
 		}
 	}
+	void dotest()
+	{
+		int x, y;
+		int sum;
+		cout << "enter a number:";
+		cin >> x;
+		cout << "enter another number:";
+		cin >> y;
+		sum = x + y;
+		cout << "sum is:" << sum;
+	 }
+	void anotherfor()
+	{
+		for (int i = 3; i < 12; i++)
+		{
+			cout << "good morning" << endl;
+		}
+	}
+	void comparision ()
+	{
+		int i = 7;
+		while(i<14)
+		{
+			cout << "hello there" << endl;
+			i = i + 2;
 
+		}
+	}
+
+	void power()
+	{
+		int s = 45;
+		for (s = 12; s > 3; s--)
+		{
+			cout << s << endl;
+		}
+	}
+	void nick()
+	{
+		int x = 4;
+		do
+		{
+			cout << "hey" << endl;
+			x++;
+		} while (x < 8);
+	}
 	void run()
 	{
-		forloop();
+	nick();
 	}
 }

@@ -57,3 +57,31 @@ namespace birat
 	}
 }
 //program to find whether the giveninput is even or odd number.
+
+
+void point()
+{
+	int x;
+	cout << "enter a number" << endl;
+	cin >> x;
+	switch (x)
+	{
+	case 1:
+		cout << "sunday";
+		break;
+	case 2:
+		cout << "monday";
+		break;
+	case 3:
+		cout << "tuesday";
+		break;
+	case 4:
+			cout << "wednesday";
+			break;
+	default:
+				cout << "other day";
+			break;
+
+	}
+
+}
