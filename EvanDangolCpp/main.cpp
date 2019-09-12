@@ -1,10 +1,9 @@
-#include "evan.h"
-#include "evan/StudentList.h"
+#include "birat/birat_loop.h"
+#include "birat/birat_switch.h"
+using namespace birat;
 
-using namespace evan;
 
 int main()
 {
-	update();
-	DisplayStudent();
+	point();
 }

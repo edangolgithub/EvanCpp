@@ -152,7 +152,6 @@
     <ClCompile Include="EvanDangolCpp\gautam\p3.cpp" />
     <ClCompile Include="EvanDangolCpp\gautam\parith.cpp" />
     <ClCompile Include="EvanDangolCpp\gautam\pointer.cpp" />
-    <ClCompile Include="EvanDangolCpp\gautam\project 1.cpp" />
     <ClCompile Include="EvanDangolCpp\gautam\simant.cpp" />
     <ClCompile Include="EvanDangolCpp\gautam\string.cpp" />
     <ClCompile Include="EvanDangolCpp\gautam\supernam.cpp" />
@@ -250,8 +249,10 @@
     <ClInclude Include="EvanDangolCpp\alok\header\stacklinked.h" />
     <ClInclude Include="EvanDangolCpp\alok\header\student.h" />
     <ClInclude Include="EvanDangolCpp\alok\header\union.h" />
-    <ClInclude Include="EvanDangolCpp\evan.h" />
+    <ClInclude Include="EvanDangolCpp\birat\birat_loop.h" />
+    <ClInclude Include="EvanDangolCpp\birat\birat_switch.h" />
     <ClInclude Include="EvanDangolCpp\evan\EvanDangolCpp.h" />
+    <ClInclude Include="EvanDangolCpp\evan\EvanWindow.h" />
     <ClInclude Include="EvanDangolCpp\evan\FileHandle.h" />
     <ClInclude Include="EvanDangolCpp\evan\FunctionsCpp.h" />
     <ClInclude Include="EvanDangolCpp\evan\stdafx.h" />
@@ -268,6 +269,8 @@
     <ClInclude Include="EvanDangolCpp\ribesh\h.h" />
     <ClInclude Include="EvanDangolCpp\simant\functions.h" />
     <ClInclude Include="EvanDangolCpp\simant\nestedloop.h" />
+    <ClInclude Include="EvanDangolCpp\simant\pointer.h" />
+    <ClInclude Include="EvanDangolCpp\simant\References.h" />
     <ClInclude Include="EvanDangolCpp\simant\simant.h" />
     <ClInclude Include="EvanDangolCpp\evan\realloc.h" />
   </ItemGroup>

@@ -102,9 +102,6 @@
     <ClCompile Include="EvanDangolCpp\gautam\pointer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EvanDangolCpp\gautam\project 1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="EvanDangolCpp\gautam\simant.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -449,7 +446,19 @@
     <ClInclude Include="EvanDangolCpp\evan\StudentList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EvanDangolCpp\evan.h">
+    <ClInclude Include="EvanDangolCpp\simant\References.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\evan\EvanWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\simant\pointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\birat\birat_switch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\birat\birat_loop.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

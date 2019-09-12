@@ -4,8 +4,8 @@ namespace evan
 	class student
 	{
 	public:
-		char roll[50];
 		char name[50];
+		char roll[50];		
 		float sm;
 		float cm;
 		float mm;
