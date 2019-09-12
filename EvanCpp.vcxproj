@@ -126,6 +126,8 @@
     <ClCompile Include="EvanDangolCpp\alok\cpp\route.cpp" />
     <ClCompile Include="EvanDangolCpp\evan\dllmain.cpp" />
     <ClCompile Include="EvanDangolCpp\evan\EvanDangolCpp.cpp" />
+    <ClCompile Include="EvanDangolCpp\evan\evandll.cpp" />
+    <ClCompile Include="EvanDangolCpp\evan\EvanDllWrapper.h" />
     <ClCompile Include="EvanDangolCpp\evan\FileHandle.cpp" />
     <ClCompile Include="EvanDangolCpp\evan\FunctionsCpp.cpp" />
     <ClCompile Include="EvanDangolCpp\evan\salarycalc.cpp" />
@@ -255,10 +257,8 @@
     <ClInclude Include="EvanDangolCpp\evan\EvanWindow.h" />
     <ClInclude Include="EvanDangolCpp\evan\FileHandle.h" />
     <ClInclude Include="EvanDangolCpp\evan\FunctionsCpp.h" />
-    <ClInclude Include="EvanDangolCpp\evan\stdafx.h" />
     <ClInclude Include="EvanDangolCpp\evan\student.h" />
     <ClInclude Include="EvanDangolCpp\evan\StudentList.h" />
-    <ClInclude Include="EvanDangolCpp\evan\targetver.h" />
     <ClInclude Include="EvanDangolCpp\gautam\filehandling.h" />
     <ClInclude Include="EvanDangolCpp\gautam\gyam.h" />
     <ClInclude Include="EvanDangolCpp\gautam\loop.h" />

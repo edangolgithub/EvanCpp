@@ -282,6 +282,12 @@
     <ClCompile Include="EvanDangolCpp\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="EvanDangolCpp\evan\evandll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\evan\EvanDllWrapper.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EvanDangolCpp\alok\header\array.h">
@@ -398,13 +404,7 @@
     <ClInclude Include="EvanDangolCpp\evan\FunctionsCpp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EvanDangolCpp\evan\stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="EvanDangolCpp\evan\student.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="EvanDangolCpp\evan\targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="EvanDangolCpp\gautam\filehandling.h">
