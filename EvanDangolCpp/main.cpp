@@ -1,10 +1,9 @@
 #include "birat/birat_loop.h"
-#include <iostream>
-using namespace std;
+#include "birat/birat_switch.h"
 using namespace birat;
 
 
 int main()
 {
-	
+	switchh();
 }
