@@ -1,6 +1,7 @@
 #include <iostream>
 #include <windows.h>
 #include<stdarg.h>
+using namespace std;
 
 namespace evan
 {
@@ -92,7 +93,7 @@ namespace evan
 			}
 
 		}
-		void callthisfunction(const char* functionname, methodsignature sig, const char *charargs = "",...)
+		void callthisfunctionc(const char* functionname, methodsignature sig, const char *charargs = "",...)
 		{
 
 			if (hInstLibrary)
@@ -123,7 +124,7 @@ namespace evan
 					_fpointer = (FunctionFunc)GetProcAddress(hInstLibrary, functionname);
 					if (_fpointer)
 					{
-						((char*(*)(const char*)) _fpointer)(charargs); //imp
+					cout<<	((char*(*)(const char*)) _fpointer)(charargs); //imp
 					}
 					break;
 				default:

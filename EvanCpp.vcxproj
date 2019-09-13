@@ -251,6 +251,7 @@
     <ClInclude Include="EvanDangolCpp\alok\header\stacklinked.h" />
     <ClInclude Include="EvanDangolCpp\alok\header\student.h" />
     <ClInclude Include="EvanDangolCpp\alok\header\union.h" />
+    <ClInclude Include="EvanDangolCpp\birat\birat_array.h" />
     <ClInclude Include="EvanDangolCpp\birat\birat_loop.h" />
     <ClInclude Include="EvanDangolCpp\birat\birat_switch.h" />
     <ClInclude Include="EvanDangolCpp\evan\EvanDangolCpp.h" />
@@ -267,6 +268,7 @@
     <ClInclude Include="EvanDangolCpp\gautam\srx.h" />
     <ClInclude Include="EvanDangolCpp\jeevan\array.h" />
     <ClInclude Include="EvanDangolCpp\ribesh\h.h" />
+    <ClInclude Include="EvanDangolCpp\simant\FunctionPointer.h" />
     <ClInclude Include="EvanDangolCpp\simant\functions.h" />
     <ClInclude Include="EvanDangolCpp\simant\nestedloop.h" />
     <ClInclude Include="EvanDangolCpp\simant\pointer.h" />
