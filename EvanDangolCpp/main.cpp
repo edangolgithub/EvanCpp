@@ -10,5 +10,7 @@ using namespace simant;
 using namespace std;
 
 int main() {
+
 	read();
+
 }
