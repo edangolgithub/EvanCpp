@@ -125,11 +125,8 @@
   <ItemGroup>
     <ClCompile Include="EvanDangolCpp\alok\cpp\route.cpp" />
     <ClCompile Include="EvanDangolCpp\evan\dllmain.cpp" />
-    <ClCompile Include="EvanDangolCpp\evan\EvanDangolCpp.cpp" />
     <ClCompile Include="EvanDangolCpp\evan\evandll.cpp" />
     <ClCompile Include="EvanDangolCpp\evan\EvanDllWrapper.h" />
-    <ClCompile Include="EvanDangolCpp\evan\FileHandle.cpp" />
-    <ClCompile Include="EvanDangolCpp\evan\FunctionsCpp.cpp" />
     <ClCompile Include="EvanDangolCpp\evan\salarycalc.cpp" />
     <ClCompile Include="EvanDangolCpp\evan\Source.cpp" />
     <ClCompile Include="EvanDangolCpp\gautam\access.cpp" />
@@ -167,7 +164,6 @@
     <ClCompile Include="EvanDangolCpp\jeevan\error.cpp" />
     <ClCompile Include="EvanDangolCpp\jeevan\exception.cpp" />
     <ClCompile Include="EvanDangolCpp\jeevan\exception2.cpp" />
-    <ClCompile Include="EvanDangolCpp\jeevan\filehandling.cpp" />
     <ClCompile Include="EvanDangolCpp\jeevan\filehandling1.cpp" />
     <ClCompile Include="EvanDangolCpp\jeevan\files.cpp" />
     <ClCompile Include="EvanDangolCpp\jeevan\first.cpp" />
@@ -254,10 +250,8 @@
     <ClInclude Include="EvanDangolCpp\birat\birat_array.h" />
     <ClInclude Include="EvanDangolCpp\birat\birat_loop.h" />
     <ClInclude Include="EvanDangolCpp\birat\birat_switch.h" />
-    <ClInclude Include="EvanDangolCpp\evan\EvanDangolCpp.h" />
     <ClInclude Include="EvanDangolCpp\evan\EvanWindow.h" />
-    <ClInclude Include="EvanDangolCpp\evan\FileHandle.h" />
-    <ClInclude Include="EvanDangolCpp\evan\FunctionsCpp.h" />
+    <ClInclude Include="EvanDangolCpp\evan\Filehandling.h" />
     <ClInclude Include="EvanDangolCpp\evan\student.h" />
     <ClInclude Include="EvanDangolCpp\evan\StudentList.h" />
     <ClInclude Include="EvanDangolCpp\gautam\filehandling.h" />
@@ -277,7 +271,11 @@
     <ClInclude Include="EvanDangolCpp\evan\realloc.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="EvanDangolCpp\evan\data\abc.txt" />
     <Text Include="EvanDangolCpp\gautam\student.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Debug\evandll.dll" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
