@@ -1,6 +1,7 @@
 #include "birat/Birat_Functions.h"
+#include "birat/birat_pointer.h"
 using namespace birat;
 
 int main() {
-	subt("ram", "rai");
+	add('r','g');
 }
