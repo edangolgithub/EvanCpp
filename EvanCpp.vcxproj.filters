@@ -21,15 +21,6 @@
     <ClCompile Include="EvanDangolCpp\evan\dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EvanDangolCpp\evan\EvanDangolCpp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EvanDangolCpp\evan\FileHandle.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EvanDangolCpp\evan\FunctionsCpp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="EvanDangolCpp\evan\salarycalc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -139,9 +130,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="EvanDangolCpp\jeevan\exception2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EvanDangolCpp\jeevan\filehandling.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="EvanDangolCpp\jeevan\filehandling1.cpp">
@@ -395,15 +383,6 @@
     <ClInclude Include="EvanDangolCpp\alok\header\union.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EvanDangolCpp\evan\EvanDangolCpp.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="EvanDangolCpp\evan\FileHandle.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="EvanDangolCpp\evan\FunctionsCpp.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="EvanDangolCpp\evan\student.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -467,14 +446,20 @@
     <ClInclude Include="EvanDangolCpp\birat\birat_array.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+
     <ClInclude Include="EvanDangolCpp\birat\Birat_Functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="EvanDangolCpp\birat\birat_pointer.h">
+
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="EvanDangolCpp\gautam\student.txt" />
+    <Text Include="EvanDangolCpp\evan\data\abc.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Debug\evandll.dll" />
   </ItemGroup>
 </Project>
