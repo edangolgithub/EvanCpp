@@ -446,7 +446,12 @@
     <ClInclude Include="EvanDangolCpp\birat\birat_array.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EvanDangolCpp\evan\Filehandling.h">
+
+    <ClInclude Include="EvanDangolCpp\birat\Birat_Functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\birat\birat_pointer.h">
+
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

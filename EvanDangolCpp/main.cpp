@@ -1,16 +1,10 @@
-#include <iostream>
-#include <windows.h>
-#include<stdio.h>
-#include "evan/EvanDllWrapper.h"
-#include "simant/FunctionPointer.h"
-#include"birat/birat_array.h"
-#include "evan/Filehandling.h"
-using namespace evan;
-using namespace simant;
-using namespace std;
+
+#include "birat/Birat_Functions.h"
+#include "birat/birat_pointer.h"
+using namespace birat;
+
 
 int main() {
 
-	read();
-
+	
 }
