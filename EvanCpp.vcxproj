@@ -271,7 +271,9 @@
     <ClInclude Include="EvanDangolCpp\evan\realloc.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="EvanDangolCpp\evan\data\abc.txt" />
+    <Text Include="EvanDangolCpp\evan\data\abc.txt">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </Text>
     <Text Include="EvanDangolCpp\gautam\student.txt" />
   </ItemGroup>
   <ItemGroup>
