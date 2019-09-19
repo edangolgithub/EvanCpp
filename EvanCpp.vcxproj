@@ -164,6 +164,7 @@
     <ClCompile Include="EvanDangolCpp\jeevan\error.cpp" />
     <ClCompile Include="EvanDangolCpp\jeevan\exception.cpp" />
     <ClCompile Include="EvanDangolCpp\jeevan\exception2.cpp" />
+    <ClCompile Include="EvanDangolCpp\jeevan\filehandling.cpp" />
     <ClCompile Include="EvanDangolCpp\jeevan\filehandling1.cpp" />
     <ClCompile Include="EvanDangolCpp\jeevan\files.cpp" />
     <ClCompile Include="EvanDangolCpp\jeevan\first.cpp" />
@@ -171,6 +172,7 @@
     <ClCompile Include="EvanDangolCpp\jeevan\pointers.cpp" />
     <ClCompile Include="EvanDangolCpp\jeevan\queuearray.cpp" />
     <ClCompile Include="EvanDangolCpp\jeevan\random.cpp" />
+    <ClCompile Include="EvanDangolCpp\main.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\a.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\array1.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\array2.cpp" />
@@ -206,7 +208,6 @@
     <ClCompile Include="EvanDangolCpp\ribesh\p or n.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\ribesh.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\sixtyfo.cpp" />
-    <ClCompile Include="EvanDangolCpp\ribesh\struct.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\structure.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\summation.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\Untitled6.cpp" />
@@ -248,12 +249,14 @@
     <ClInclude Include="EvanDangolCpp\alok\header\student.h" />
     <ClInclude Include="EvanDangolCpp\alok\header\union.h" />
     <ClInclude Include="EvanDangolCpp\birat\birat_array.h" />
+    <ClInclude Include="EvanDangolCpp\birat\birat_class.h" />
     <ClInclude Include="EvanDangolCpp\birat\Birat_Functions.h" />
     <ClInclude Include="EvanDangolCpp\birat\birat_loop.h" />
     <ClInclude Include="EvanDangolCpp\birat\birat_pointer.h" />
     <ClInclude Include="EvanDangolCpp\birat\birat_switch.h" />
     <ClInclude Include="EvanDangolCpp\evan\EvanWindow.h" />
-    <ClInclude Include="EvanDangolCpp\evan\Filehandling.h" />
+    <ClInclude Include="EvanDangolCpp\evan\FileHandle.h" />
+    <ClInclude Include="EvanDangolCpp\evan\FunctionsCpp.h" />
     <ClInclude Include="EvanDangolCpp\evan\student.h" />
     <ClInclude Include="EvanDangolCpp\evan\StudentList.h" />
     <ClInclude Include="EvanDangolCpp\gautam\filehandling.h" />
@@ -263,6 +266,7 @@
     <ClInclude Include="EvanDangolCpp\gautam\srs.h" />
     <ClInclude Include="EvanDangolCpp\gautam\srx.h" />
     <ClInclude Include="EvanDangolCpp\jeevan\array.h" />
+    <ClInclude Include="EvanDangolCpp\kshitiz\CharPointer.h" />
     <ClInclude Include="EvanDangolCpp\ribesh\h.h" />
     <ClInclude Include="EvanDangolCpp\simant\FunctionPointer.h" />
     <ClInclude Include="EvanDangolCpp\simant\functions.h" />
@@ -273,13 +277,7 @@
     <ClInclude Include="EvanDangolCpp\evan\realloc.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="arraypointer.txt" />
-    <Text Include="EvanDangolCpp\evan\data\abc.txt" />
     <Text Include="EvanDangolCpp\gautam\student.txt" />
-    <Text Include="stack.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Debug\evandll.dll" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

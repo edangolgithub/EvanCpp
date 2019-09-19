@@ -21,15 +21,6 @@
     <ClCompile Include="EvanDangolCpp\evan\dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EvanDangolCpp\evan\EvanDangolCpp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EvanDangolCpp\evan\FileHandle.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EvanDangolCpp\evan\FunctionsCpp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="EvanDangolCpp\evan\salarycalc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -395,9 +386,6 @@
     <ClInclude Include="EvanDangolCpp\alok\header\union.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EvanDangolCpp\evan\EvanDangolCpp.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="EvanDangolCpp\evan\FileHandle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -471,6 +459,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="EvanDangolCpp\birat\birat_pointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\kshitiz\CharPointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvanDangolCpp\birat\birat_class.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
