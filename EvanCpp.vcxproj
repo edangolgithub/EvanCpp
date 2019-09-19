@@ -272,7 +272,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="EvanDangolCpp\evan\data\abc.txt" />
-     <Text Include="EvanDangolCpp\gautam\student.txt" />
+    <Text Include="EvanDangolCpp\gautam\student.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Debug\evandll.dll" />
