@@ -10,5 +10,5 @@ using namespace simant;
 using namespace std;
 
 int main() {
-	MessageBox(NULL, "Goodbye, cruel world!", "Note", MB_OK);
+	read();
 }
