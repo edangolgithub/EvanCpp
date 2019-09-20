@@ -78,6 +78,10 @@ namespace birat {
 			x++;
 		} while (x < 8);
 	}
+	void seren()
+	{
+
+	}
 	void run()
 	{
 	nick();
