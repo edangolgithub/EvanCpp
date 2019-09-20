@@ -467,6 +467,9 @@
     <ClInclude Include="EvanDangolCpp\birat\birat_class.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="EvanDangolCpp\kshitiz\strings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="EvanDangolCpp\gautam\student.txt" />
