@@ -1,8 +1,14 @@
-#include"birat/birat_array.h"
+#include <iostream>
+using namespace std;
 
-int main() {
+int main(){
+	int array[] = { 2,4,6,8,10 };
+	int* p;
+	p = &array[2];
+	cout << *p;
+	cout << p;
 
-	cout << "hello";
-	
+
+
 
 }

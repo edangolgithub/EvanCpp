@@ -267,6 +267,7 @@
     <ClInclude Include="EvanDangolCpp\gautam\srx.h" />
     <ClInclude Include="EvanDangolCpp\jeevan\array.h" />
     <ClInclude Include="EvanDangolCpp\kshitiz\CharPointer.h" />
+    <ClInclude Include="EvanDangolCpp\kshitiz\strings.h" />
     <ClInclude Include="EvanDangolCpp\ribesh\h.h" />
     <ClInclude Include="EvanDangolCpp\simant\FunctionPointer.h" />
     <ClInclude Include="EvanDangolCpp\simant\functions.h" />
