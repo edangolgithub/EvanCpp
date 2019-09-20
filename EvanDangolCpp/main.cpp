@@ -1,7 +1,8 @@
-#include "birat/birat_class.h"
-
+#include"birat/birat_array.h"
 
 int main() {
+
 	cout << "hello";
 	
+
 }
