@@ -1,19 +1,14 @@
-#include "birat/birat_class.h"
+#include <iostream>
+using namespace std;
+
+int main(){
+	int array[] = { 2,4,6,8,10 };
+	int* p;
+	p = &array[2];
+	cout << *p;
+	cout << p;
 
 
-int main() {
 
-
-//bankaccount birat;
-//	birat.deposit(100000);
-//	birat.withdraw(50000);
-//	birat.withdraw(20000);
-//	birat.deposit(300000);
-//	birat.showbalance();
-
-	motorcycle ninjak;
-	ninjak.tax(75000);
-	ninjak.fund(1050000);
-	ninjak.total();
 
 }
