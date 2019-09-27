@@ -34,6 +34,11 @@ public:
 		cout << "legs of animal :" << legs << endl;
 		cout << "colorw of animal :" << color << endl;
 	}
+
+	 virtual void poly()
+	{
+		cout << "this is animal class";
+	}
 };
 
 class bird :public animal
@@ -51,7 +56,24 @@ public:
 	{
 		cout << name << " fly" << endl;
 	}
+	void poly()
+	{
+		cout << "this is bird class";
+	}
 
+};
+
+class tiger:public animal
+{
+public:
+	tiger()
+	{
+
+	}
+	void poly()
+	{
+		cout << "this is tiger class";
+	}
 };
 class vehicle
 {
@@ -143,6 +165,7 @@ public:
 	bankaccount()
 	{
 		balance = 0;
+		interest = 100;
 	}
 	void withdraw(double amount)
 	{
@@ -156,8 +179,9 @@ public:
 	{
 		cout << "you haver Rs. " << balance<<endl;
 	}
+protected:
+	double interest;
 };
-
 
 
 
@@ -182,4 +206,20 @@ public:
 	{
 		cout << "total cost of bike is rs." <<sum<<endl;
 	}
+};
+
+
+
+class savingaccount:public bankaccount
+{
+public:
+	void getinterest()
+	{
+		cout << interest;
+	}
+};
+class currentaccount:public bankaccount
+{
+
+
 };

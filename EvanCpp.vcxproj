@@ -250,6 +250,7 @@
     <ClInclude Include="EvanDangolCpp\alok\header\union.h" />
     <ClInclude Include="EvanDangolCpp\birat\birat_array.h" />
     <ClInclude Include="EvanDangolCpp\birat\birat_class.h" />
+    <ClInclude Include="EvanDangolCpp\birat\birat_file.h" />
     <ClInclude Include="EvanDangolCpp\birat\Birat_Functions.h" />
     <ClInclude Include="EvanDangolCpp\birat\birat_loop.h" />
     <ClInclude Include="EvanDangolCpp\birat\birat_pointer.h" />
