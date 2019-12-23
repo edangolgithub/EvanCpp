@@ -267,13 +267,13 @@
     <ClCompile Include="EvanDangolCpp\ribesh\Untitled6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EvanDangolCpp\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="EvanDangolCpp\evan\evandll.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="EvanDangolCpp\evan\EvanDllWrapper.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\struct.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

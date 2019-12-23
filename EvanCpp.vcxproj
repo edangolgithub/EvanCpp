@@ -171,7 +171,6 @@
     <ClCompile Include="EvanDangolCpp\jeevan\pointers.cpp" />
     <ClCompile Include="EvanDangolCpp\jeevan\queuearray.cpp" />
     <ClCompile Include="EvanDangolCpp\jeevan\random.cpp" />
-    <ClCompile Include="EvanDangolCpp\main.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\a.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\array1.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\array2.cpp" />
@@ -207,6 +206,7 @@
     <ClCompile Include="EvanDangolCpp\ribesh\p or n.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\ribesh.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\sixtyfo.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\struct.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\structure.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\summation.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\Untitled6.cpp" />
