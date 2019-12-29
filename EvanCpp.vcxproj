@@ -271,8 +271,10 @@
     <ClInclude Include="EvanDangolCpp\evan\realloc.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="arraypointer.txt" />
     <Text Include="EvanDangolCpp\evan\data\abc.txt" />
     <Text Include="EvanDangolCpp\gautam\student.txt" />
+    <Text Include="stack.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Debug\evandll.dll" />

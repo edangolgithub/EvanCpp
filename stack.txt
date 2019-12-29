@@ -1,0 +1,73 @@
+#include<string.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+#include<iostream>
+#define MAXx 5
+using namespace std;
+int top=-1;
+int stack[MAXx];
+void push(int data)
+{
+	
+	if (top == MAXx-1)
+	{
+		cout << "stack overflow"<<endl;
+		return;
+	}
+	top++;
+	stack[top] = data;
+	cout << "pushed " << data<<endl;
+}
+
+void pop()
+{
+
+	if (top == -1)
+	{
+		cout << "stack underflow"<<endl;
+		return;
+	}
+	cout << "popped " << stack[top]<<endl;
+	top--;
+	
+}
+void display1()
+{
+	if (top == -1)
+	{
+		cout << "stack is empty"<<endl;
+		return;
+	}
+	for (size_t i = 0; i <= top; i++)
+	{
+		cout << stack[i] << endl;
+	}
+}
+
+int main()
+{
+	push(40);
+	display1();
+	push(50);
+	display1();
+	push(60);
+	display1();
+	push(70);
+	display1();
+	push(80);
+	display1();
+	push(90);
+	display1();
+	pop();
+	pop();
+	display1();
+	pop();
+	pop();
+	pop();
+	display1();
+	pop();
+
+
+}
+

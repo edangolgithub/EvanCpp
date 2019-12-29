@@ -453,6 +453,12 @@
   <ItemGroup>
     <Text Include="EvanDangolCpp\gautam\student.txt" />
     <Text Include="EvanDangolCpp\evan\data\abc.txt" />
+    <Text Include="stack.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="arraypointer.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <None Include="Debug\evandll.dll" />

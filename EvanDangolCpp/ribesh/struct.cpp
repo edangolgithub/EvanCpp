@@ -1,32 +1,31 @@
-#include<string.h>
-#include<stdio.h>
-struct mobile
-{
-	int id;
-	float price;
-	char country[];
+#include<iostream>
+using namespace std;
 
-};
 
 int main()
 {
-	mobile myxiaomi;
-	myxiaomi.id = 1;
-	strcpy(myxiaomi.country, "china");
-	myxiaomi.price = 500;
+	int arr[10]; // 4 2 1 9 3
+	for (size_t i = 0; i < 10; i++)
+	{
+		cin >> arr[i];
+	}
 
-	mobile ribeshsamsung;
-	myxiaomi.id = 10;
-	strcpy(myxiaomi.country, "south korea");
-	myxiaomi.price = 1000;
+	for (size_t i = 0; i < 10; i++)
+	{
 
-	mobile biswomobile;
-	myxiaomi.id = 12;
-	strcpy(myxiaomi.country, "Nepal");
-	myxiaomi.price = 100;
+		for (size_t j = 0; j < 9; j++)
+		{
+			if (arr[j] > arr[j + 1])
+			{
+				int temp = arr[j];
+				arr[j] = arr[j + 1];
+				arr[j + 1] = temp;
+			}
+		}
 
-
-	printf("%s", myxiaomi.country);
-
-	printf("%s", biswomobile.country);
+	}
+	for (size_t i = 0; i < 10; i++)
+	{
+		cout << arr[i] << endl;
+	}
 }

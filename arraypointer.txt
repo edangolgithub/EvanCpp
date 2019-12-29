@@ -1,0 +1,25 @@
+#include<string.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+#include<iostream>
+#define MAXx 5
+using namespace std;
+
+
+int main()
+{
+	int arr[] = { 34,7,2,43,12,65 };
+    cout << *arr;
+	return 0;
+	int *p = &arr[3];
+	int c = 1;
+	while (c <= 6)
+	{
+		cout << *p << endl;
+		c++;
+		//p++;
+	}
+
+}
+
