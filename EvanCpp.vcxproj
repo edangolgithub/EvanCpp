@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{E5CF0CDA-64C4-4808-B60B-7F8F415ECDEE}</ProjectGuid>
     <RootNamespace>EvanCpp</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -209,6 +209,7 @@
     <ClCompile Include="EvanDangolCpp\ribesh\ribesh.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\sixtyfo.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\structure.cpp" />
+    <ClCompile Include="EvanDangolCpp\ribesh\Structures1.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\summation.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\Untitled6.cpp" />
   </ItemGroup>
