@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int nmain(){
 	int array[] = { 2,4,6,8,10 };
 	int* p;
 	p = &array[2];
@@ -9,6 +9,6 @@ int main(){
 	cout << p;
 
 
-
+	return 0;
 
 }

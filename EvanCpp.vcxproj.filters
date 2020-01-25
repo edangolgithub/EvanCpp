@@ -279,6 +279,9 @@
     <ClCompile Include="EvanDangolCpp\evan\EvanDllWrapper.h">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EvanDangolCpp\alok\header\array.h">
