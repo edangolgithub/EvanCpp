@@ -24,9 +24,6 @@
     <ClCompile Include="EvanDangolCpp\evan\salarycalc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EvanDangolCpp\evan\Source.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="EvanDangolCpp\gautam\access.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -280,6 +277,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="EvanDangolCpp\ribesh\Structures1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\ribesh\Structures1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvanDangolCpp\evan\cfile.h">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
