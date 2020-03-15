@@ -208,7 +208,6 @@
     <ClCompile Include="EvanDangolCpp\ribesh\p or n.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\ribesh.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\sixtyfo.cpp" />
-
     <ClCompile Include="EvanDangolCpp\ribesh\structure.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\Structures1.cpp" />
     <ClCompile Include="EvanDangolCpp\ribesh\summation.cpp" />
