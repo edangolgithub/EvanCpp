@@ -128,7 +128,7 @@
     <ClCompile Include="EvanDangolCpp\evan\evandll.cpp" />
     <ClCompile Include="EvanDangolCpp\evan\EvanDllWrapper.h" />
     <ClCompile Include="EvanDangolCpp\evan\salarycalc.cpp" />
-    <ClCompile Include="EvanDangolCpp\evan\Source.cpp" />
+    <ClCompile Include="EvanDangolCpp\evan\cfile.h" />
     <ClCompile Include="EvanDangolCpp\gautam\access.cpp" />
     <ClCompile Include="EvanDangolCpp\gautam\ag.cpp" />
     <ClCompile Include="EvanDangolCpp\gautam\const.cpp" />
