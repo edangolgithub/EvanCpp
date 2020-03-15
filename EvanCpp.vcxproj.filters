@@ -279,7 +279,7 @@
     <ClCompile Include="EvanDangolCpp\evan\EvanDllWrapper.h">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EvanDangolCpp\ribesh\Source.cpp">
+    <ClCompile Include="EvanDangolCpp\ribesh\Structures1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
